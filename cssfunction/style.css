@@ -7,6 +7,46 @@ h1 {
 
 }
 
-ul {
-    color: darkkhaki;
+header {
+    position: fixed;
+    height: 50px;
+    width:100%;
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+    font-size: 32px;
+    background-image: url('../images/title.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    header li {
+        display: inline;
+        margin: 4vw;
+        
+    }
+        header li:hover {
+            text-decoration:underline;
+            <background-color:black;>
+        }
+    header ul {
+        position:fixed;
+        right:5vw;
+        top:0;
+        line-height:1vw;
+    }
+nav {
+    text-decoration:none;
+    color:snow;
+    font-size:20px;
+}
+footer {
+    color:snow;
+    font-size:12px;
+}
+.hello {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
 }
