@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\css",
-    "\\images"
+    "\\cssfunction",
+    "\\htmlmodel",
+    "\\images",
+    "\\jsfunction"
   ],
-  "SelectedNode": "\\css",
+  "SelectedNode": "\\jsfunction",
   "PreviewInSolutionExplorer": false
 }
