@@ -1,23 +1,13 @@
-p {
-    color: snow;
-}
-
-h1 {
-    color: aliceblue;
-
-}
-
 header {
-    position: fixed;
-    height: 50px;
+    position:fixed;
     width:100%;
-    padding: 0;
+    padding: 0.5%;
     margin: 0;
     color: aliceblue;
     font-size: 32px;
     background-image: url('../images/title.png');
     background-size: cover;
-    background-position: center;
+    background-size:cover;
     background-repeat: no-repeat;
 }
     header li {
@@ -33,25 +23,14 @@ header {
         text-decoration:none;
         position:fixed;
         right: 5vw;
-        top: 0;
+        top: 20px;
         line-height: 1vw;
     }
         header ul a {
             text-decoration:none;
             color:snow;
         }
-nav {
-    text-decoration:none;
-    color:snow;
-    font-size:20px;
-}
-footer {
-    color:snow;
-    font-size:12px;
-}
-.hello {
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction:column;
+main {
+    position:absolute;
+    top:8%;
 }

@@ -1,11 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display:grid;
+            grid-template-columns:4fr 1fr;
+            grid-gap:0px;
+            
+        }
+        .column {
+            padding: 20px;
+            margin: 0;
+            overflow: auto;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
     <title>EastCoast's Private Blog</title>
     <link rel="stylesheet" href="../cssfunction/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
 </head>
-<body style="margin:0;padding:0">
-    <header>
+<body style="margin: 0; padding: 0; background-image: url(../images/background.jpg); background-size: 100%;">
+    <header style="z-index:2;">
         <b><em>Welcome to EastCoastZ's blog</em></b>
         <nav>
             <ul>
@@ -16,6 +38,19 @@
             </ul>
         </nav>
     </header>
-    Hello world!
+    <main style="z-index: 1">
+        <div class="container"style="margin-left:5%;margin-right:5%;height:9000px;" >
+            <div class="column"style="background-color: aliceblue;">
+            </div>
+            <div class="column"style="background-color: black; word-wrap:break-word;">
+                <img src="../images/head.png"style="width:200px;border:solid;border-color:snow;">
+                <h1 style="color:snow;text-align:center;">
+                   用户名<br>EastCoastZ
+                </h1>
+                <p>欢迎访问eastcoastz的私人博客网站</p>
+                <p style="color:snow;text-align:center;">GitHub网址:<br><a href="https://github.com/EastCoastZ" style="text-decoration:none;color:snow;font-size:14px;">https://github.com/EastCoastZ</a></p>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
