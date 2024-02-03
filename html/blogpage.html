@@ -17,8 +17,19 @@
             margin: 0;
             overflow: auto;
         }
+        .header {
+            display:flex;
+        }
+        .content {
+            flex:1;
+            padding:20px;
+        }
         a:hover {
             text-decoration: underline;
+        }
+        li {
+            display:inline;
+            font-size:30px;
         }
     </style>
     <title>EastCoast's Private Blog</title>
@@ -26,7 +37,7 @@
     <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
 </head>
-<body style="margin: 0; padding: 0; background-image: url(../images/background.jpg); background-size: 100%;">
+<body style="margin: 0; padding: 0; background-image: url(../images/background.webp); background-size: 100%;">
     <header style="z-index:2;">
         <b><em>Welcome to EastCoastZ's blog</em></b>
         <nav>
@@ -39,13 +50,29 @@
         </nav>
     </header>
     <main style="z-index: 1">
-        <div class="container"style="margin-left:5%;margin-right:5%;height:9000px;" >
-            <div class="column"style="background-color: aliceblue;">
+        <div class="container"style="margin-left:5%;margin-right:5%;height:3000px;" >
+            <div class="column"style="background-color: aliceblue;margin:0">
+                <div class="header" style="background-color: antiquewhite; position: absolute; top: 0;left: 5%;; height: 40px;text-align:center;font-size:32px;">
+                    <p>
+                        <ul style="margin-left:1vw;">
+                            <li>内容</li>
+                            <li>文本</li>
+                        </ul>
+                    </p>
+                    <br>
+                    <p style="font-size:10px;">
+
+                        --------------------------------------------------------------------------
+                    </p>
+                </div>
+                <div class="content">
+                    这是内容部
+                </div>
             </div>
             <div class="column"style="background-color: black; word-wrap:break-word;">
                 <img src="../images/head.png"style="width:200px;border:solid;border-color:snow;">
                 <h1 style="color:snow;text-align:center;">
-                   用户名<br>EastCoastZ
+                   EastCoastZ
                 </h1>
                 <p>欢迎访问eastcoastz的私人博客网站</p>
                 <p style="color:snow;text-align:center;">GitHub网址:<br><a href="https://github.com/EastCoastZ" style="text-decoration:none;color:snow;font-size:14px;">https://github.com/EastCoastZ</a></p>
